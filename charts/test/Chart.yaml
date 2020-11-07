@@ -23,3 +23,7 @@ version: 0.2.1
 appVersion: 1.16.0
 
 home: https://github.com/dergeberl/helm-ci-test
+maintainers:
+  - name: Maximilian Geberl
+    url: github.com/dergeberl
+    
