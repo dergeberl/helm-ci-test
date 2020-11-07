@@ -3,6 +3,20 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2020-11-07T14:30:55.304908114Z"
+    description: A Helm chart for Kubernetes
+    digest: 7dea0aaa42232cc15a1b5d5426e3ad53a7247977382dd79564f6b4d96d8a3508
+    home: https://github.com/dergeberl/helm-ci-test
+    maintainers:
+    - name: dergeberl
+      url: github.com/dergeberl
+    name: test
+    type: application
+    urls:
+    - https://github.com/dergeberl/helm-ci-test/releases/download/test-0.2.1/test-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2020-11-05T20:05:56.841644497Z"
     description: A Helm chart for Kubernetes
     digest: ec713ac062d16546033603dad6541c081200e6348471ad6c7b1cc2dc40810419
