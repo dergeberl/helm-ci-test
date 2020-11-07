@@ -37,4 +37,4 @@ jobs:
         run: docker run --rm --volume "$(pwd):/helm-docs" -u $(id -u) jnorwood/helm-docs:latest
       # Use the output from the `hello` step
       - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+        run: git diff --exit-code || (echo "please update helm-docs" && exit 1)
